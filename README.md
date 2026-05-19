@@ -16,11 +16,10 @@ PropTool: https://github.com/AngryWasp/AngryWasp.PropTool
 
 ## Compiling the example
 
-Simplest is to just run build, then install. This will build and install the included HelloWorld program to the device RAM. This is useful for testing.   
+Simplest is to just run 'helloWorld.bs'. This script calls make.bs to build and then install the helloWorld program   
 
 ```powershell
-bsi ./make.bs --% --run build(\"helloWorld\")
-bsi ./make.bs --% --run install(\"helloWorld\")
+bsi ./helloWorld.bs
 ```
 
 For complete control over the install, you can use proptool directly. run 'proptool --help' for a full list of available command line options

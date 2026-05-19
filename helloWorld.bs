@@ -1,0 +1,7 @@
+include "./make.bs"
+
+var prog = "helloWorld"
+
+build(prog)
+findPort()
+exec("proptool", fmt("--port {0} --target RAM --program build/{1}.binary --listen", env("PORT"), prog))
