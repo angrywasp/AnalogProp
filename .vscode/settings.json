@@ -1,0 +1,8 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.openEditors.visible": 1,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "C_Cpp.default.compilerPath": "${workspaceFolder}/External/GCC/bin/propeller-elf-gcc.exe"
+}
